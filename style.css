@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    padding: 10rem;
+}
+
+.card {
+    width: 18rem;
+    height: 32rem;
+    background-color: hsl(216, 50%, 16%);
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 0 12px 12px 12px;
+    border-radius: 10px;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.title {
+    margin: 12px 0;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.text {
+    margin: 12px 0;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.infs {
+    font-family: 'Outfit', sans-serif;
+}
+
+.infs img {
+    width: auto;
+}
+
+.infs li {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+ul li:first-child {
+    color: hsl(178, 100%, 50%);
+}
+
+ul li {
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+    margin: 16px 0;
+    border: 0.1pxhsl(215, 51%, 70%);
+}
+
+.description img {
+    width: 32px;
+    border: hsl(215, 51%, 70%) 1px solid;
+    border-radius: 50%;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin: 12px 0;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.description span {
+    color: hsl(0, 0%, 100%);
+}
+
+/*--------------------------------------------------------*/
+@media screen and(max-width:580px) {
+    body {
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
